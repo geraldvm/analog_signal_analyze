@@ -31,7 +31,7 @@ Como se observa se emplea un ARDUINO UNO para el procesamiento de datos y contro
 
 Lista de materiales:
 
-![Materials]https://github.com/geraldvm/analog_signal_analyze/blob/main/images/matetrials.PNG)
+![Materials](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/matetrials.PNG)
 
 # Pinout
 
