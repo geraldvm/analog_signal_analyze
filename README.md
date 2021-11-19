@@ -1,3 +1,8 @@
+# Autores
+Jonathan Araya Guzmán.
+Gerald Valverde Mc kenzie.
+
+
 # Procesamiento digital de señales
 Procesamiento de una señal, eliminando el ruido por medio de un Arduino UNO para el curso de Taller de Diseño Analógico del Lógico  de la carrera Ingeniería en Computadores del Tecnológico de Costa Rica.
 
@@ -21,50 +26,24 @@ Como se observa se emplea un ARDUINO UNO para el procesamiento de datos y contro
 
 ![Circuito](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/circuit.png)
 
+
+# Pinout
+
+| Pin | Value      |
+|-----|------------|
+| A0  | Señal A+B  |
+| A1  | Señal B    |
+| 2   | LCD D7     |
+| 3   | LCD D6     |
+| 4   | LCD D5     |
+| 5   | LCD D4     |
+| 11  | LCD Enable |
+| 12  | LCD RS     |
+
+
 # Código
-`int AB = A0; //A+B in pin A0
-int B = A1;  //B in pin A1
-int abValue; //a+b reading value
-int bValue;  // b reading value
 
-// include the library code:
-#include <LiquidCrystal.h>
-
-// initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-
-void setup() {
-  // set up the LCD's number of columns and rows:
-  lcd.begin(16, 2);
-  // Print a message to the LCD.
-  // initialize all the readings to 0:
-
-}
-
-void loop() {
-
-  temp_measure();
-}
- 
-float read(){
-  abValue = analogRead(AB);
-  bValue = analogRead(B);
-  return abValue - bValue;
-}
-
-
-
-void temp_measure(){
-  float voltage = 5.0 /1024 * read() ;
-  float temp = (voltage-0.5) * 100; 
-  lcd.setCursor(0, 0);
-  lcd.print("Voltage:");
-  lcd.setCursor(9, 0);
-  lcd.print(voltage);
-  lcd.setCursor(14, 0);
-  lcd.print("V");
-  delay(1);        // delay in between reads for stability
-}`
+[Arduino Code](https://github.com/geraldvm/analog_signal_analyze/tree/main/code)
 
 # Simulación
 Se empleó la aplicación web de [TINKERCAD](https://www.tinkercad.com/). El circuito simulado se encuentra en el siguiente link:
