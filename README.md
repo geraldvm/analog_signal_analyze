@@ -1,5 +1,6 @@
 # Autores
 Jonathan Araya Guzmán.
+
 Gerald Valverde Mc kenzie.
 
 
@@ -26,6 +27,11 @@ Como se observa se emplea un ARDUINO UNO para el procesamiento de datos y contro
 
 ![Circuito](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/circuit.png)
 
+# Materiales
+
+Lista de materiales:
+
+![Materials](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/materials.PNG)
 
 # Pinout
 
@@ -50,3 +56,20 @@ Se empleó la aplicación web de [TINKERCAD](https://www.tinkercad.com/). El cir
 
 [https://www.tinkercad.com/things/iU172kKniQ6](https://www.tinkercad.com/things/iU172kKniQ6)
 
+## Ejecución
+
+Para ejecutar el proyecto se debe seleccionar el botón de Simular:
+
+![Botón](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/sim1.PNG)
+
+Seguidamente se varía el valor de señal A cambiando la temperatura sensada en el componente TMP36:
+
+![Botón](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/sim2.PNG)
+
+Seguidamente se varía el valor de señal B cambiando el valor de la resistencia del potenciómetro:
+
+![Botón](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/sim3.PNG)
+
+El resultado de la pantalla se puede observar en la pantalla LCD:
+
+![Botón](https://github.com/geraldvm/analog_signal_analyze/blob/main/images/sim4.PNG)
